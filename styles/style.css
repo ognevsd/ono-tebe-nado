@@ -2,12 +2,69 @@
 body {
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
   font-weight: normal;
   background: #FFF;
   padding: 90px 50px;
 }
 
 .header {
+  padding: 92 51 92 49;
   display: grid;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__menu-link {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.header__menu-item-active .header__menu-link {
+  text-decoration: none;
+}
+
+.header__menu-item-active {
+  list-style: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+  flex-shrink: 0;
+}
+
+.header__logo-image {}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.35em;
+}
+
+.address__link {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.header__address {
+  justify-self: right;
 }
