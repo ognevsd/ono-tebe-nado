@@ -94,19 +94,23 @@ body {
   padding-right: 50px;
 }
 
-.cover__title h1 {
+.cover__title span {
+  z-index: 1;
+}
+
+.cover__title {
   color: #FFF;
   font-size: 100px;
   font-weight: 700;
   line-height: 100%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  z-index: 10;
+  z-index: 1;
 }
 
 .text-left {
-  line-height: 115%;
-  text-align: left;
+  /* line-height: 115%; */
+  /* text-align: left; */
 }
 
 .text-center {
