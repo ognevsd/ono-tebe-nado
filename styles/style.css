@@ -226,7 +226,7 @@ body {
 .about {
   margin: 130px 50px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 450px 1fr;
   column-gap: 10px;
   grid-auto-flow: column;
   /* align-items: end; */
@@ -266,4 +266,41 @@ body {
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
+}
+
+.footer {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer__menu {
+  display: flex;
+  text-align: center;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.header__menu-link {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.footer__menu-item-active .footer__menu-link {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-icon {
+  height: 48px;
 }
