@@ -7,10 +7,11 @@ body {
   color: #000;
   background: #FFF;
   max-width: 1440px;
+  margin: auto;
 }
 
 .header {
-  padding: 92px 51px 96px 49px;
+  padding: 92px 51px 92px 49px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
