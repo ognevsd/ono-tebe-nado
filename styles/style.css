@@ -37,11 +37,7 @@ body {
 }
 
 .header__menu-item-active {
-  /* text-decoration: none; */
   border-bottom: none;
-}
-
-.header__menu-item-active {
   list-style: none;
 }
 
@@ -50,7 +46,6 @@ body {
   width: 148px;
   height: 105px;
   flex-shrink: 0;
-  /* margin-bottom: 4px; */
 }
 
 .address {
@@ -102,7 +97,7 @@ body {
   font-size: 100px;
   font-weight: 700;
   line-height: 115%;
-  letter-spacing: 60px;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
   z-index: 10;
 }
@@ -115,8 +110,16 @@ body {
   text-align: right;
 }
 
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: initial;
+}
+
 .cover__info {
-  padding-right: 50px;
   display: flex;
   justify-content: right;
   align-items: center;
@@ -291,11 +294,6 @@ body {
 
 .footer__menu-list {
   list-style: none;
-}
-
-.header__menu-link {
-  font-size: 18px;
-  line-height: normal;
 }
 
 .footer__menu-item-active .footer__menu-link {
