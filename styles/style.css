@@ -1,17 +1,6 @@
 /* место для вашего кода */
-body {
-  font-family: 'Raleway', 'Arial', sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  color: #000;
-  background: #FFF;
-  /* max-width: 1440px;
-  margin: auto; */
-}
-
 .header {
-  padding: 85px 51px 96px 49px;
+  padding: 92px 49px 92px 51px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -45,9 +34,13 @@ body {
 
 .header__logo {
   display: block;
-  width: 148px;
-  height: 105px;
+
   flex-shrink: 0;
+}
+
+.header__logo-image {
+  width: 136px;
+  height: 104.75px;
 }
 
 .address {
@@ -330,4 +323,5 @@ body {
 
 .footer__social-icon {
   height: 48px;
+  width: 48px;
 }
