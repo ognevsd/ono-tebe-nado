@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .header {
-  padding: 85px 49px 92px 51px;
+  padding: 92px 49px 92px 51px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -119,10 +119,11 @@
 
 .cover__info {
   display: flex;
+  position: relative;
   justify-content: right;
   align-items: center;
   gap: 78px;
-  z-index: 1;
+  z-index: 10;
   padding-right: 50px;
   padding-bottom: 50px;
 }
@@ -283,7 +284,6 @@
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
-  /* line-height: 10%; */
 }
 
 .footer {
