@@ -1,6 +1,6 @@
 /* место для вашего кода */
 .header {
-  padding: 92px 49px 92px 51px;
+  padding: 85px 49px 92px 51px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -246,7 +246,6 @@
   grid-template-columns: 450px 1fr;
   column-gap: 5px;
   grid-auto-flow: column;
-  /* align-items: end; */
 }
 
 .about__logo {
