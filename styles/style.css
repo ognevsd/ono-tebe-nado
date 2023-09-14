@@ -64,7 +64,6 @@
 
 .cover {
   position: relative;
-  height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,14 +77,6 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* .cover__title {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-top: 165px;
-  padding-left: 50px;
-} */
-
 .cover__title span {
   z-index: 1;
 }
@@ -96,6 +87,7 @@
   gap: 20px;
   padding-top: 165px;
   padding-left: 50px;
+  padding-bottom: 135px;
   color: #FFF;
   font-size: 100px;
   font-weight: 700;
@@ -130,9 +122,9 @@
   justify-content: right;
   align-items: center;
   gap: 78px;
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
+  z-index: 1;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 .cover__subline {
@@ -145,6 +137,7 @@
 }
 
 .cover__button {
+  width: 257px;
   padding: 12px 32px;
   border: #FFF 1px solid;
   background: transparent;
@@ -239,7 +232,8 @@
 }
 
 .lots__look-more-link {
-  display: inline-block;
+  display: flex;
+  max-width: 192px;
   margin-top: 30px;
   margin-left: 40px;
   text-decoration: none;
@@ -290,6 +284,7 @@
   flex-direction: column;
   gap: 25px;
   font-size: 20px;
+  /* line-height: 10%; */
 }
 
 .footer {
